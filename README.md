@@ -1,4 +1,4 @@
-# goit-markup-hw-05
+# goit-markup-hw-06
 
 My third homework from GoIT
 
@@ -11,3 +11,5 @@ In third homework from GoIT I have to add styles for geometry (width, padding, m
 In the fourth homework from GoIT I have to add decorative effects for my web-site.
 
 In the fifth homework from GoIT i have to add form elements for my web-site.
+
+In the sixth homework from GoIT i have to add responsive design for my web-site.
