@@ -26,7 +26,7 @@
   <body>
     <!--top-line-fixed-->
     <header class="page-header">
-      <div class="container">
+      <div class="container page-header-container">
         <nav class="header-nav">
           <a class="logo header-logo" href="./index.html"
             >Web<span class="logo-part">Studio</span></a
@@ -43,6 +43,11 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-open-btn" type="button">
+          <svg class="mobile-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
@@ -65,8 +70,7 @@
     <!--hero-image-scrolls-->
     <main class="page-main">
       <!--page-1-part-1-->
-      <section class="page-main-section">
-        <!-- page-main-section-container -->
+      <!-- <section class="page-main-section">
         <div class="container">
           <h1 class="page-main-section-title">
             Effective Solutions for Your Business
@@ -75,9 +79,9 @@
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
       <!--section-1-scrolls-page-1-part-2-->
-      <section class="page-main-first-section section-paddings">
+      <!-- <section class="page-main-first-section section-paddings">
         <div class="container">
           <h2 class="page-main-first-section-title visually-hidden">
             Benefits
@@ -133,9 +137,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--section-2-scrolls-->
-      <section class="page-main-second section-paddings">
+      <!-- <section class="page-main-second section-paddings">
         <div class="container">
           <h2 class="page-main-second-title">Our Team</h2>
           <ul class="page-main-second-list">
@@ -309,9 +313,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--section-3-scrolls-->
-      <section class="page-main-third section-paddings">
+      <!-- <section class="page-main-third section-paddings">
         <div class="container">
           <h2 class="page-main-second-title">Our Portfolio</h2>
           <ul class="page-main-third-list">
@@ -451,10 +455,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!--footer-scrolls-->
-    <footer class="page-footer">
+    <!-- <footer class="page-footer">
       <div class="container footer-container">
         <div class="footer-wrap-text">
           <a class="logo footer-logo" href="./index.html"
@@ -517,10 +521,10 @@
             </button>
           </form>
         </div>
-      </div>
+      </div> -->
     </footer>
     <!--BACKDROP-is-open-->
-    <div class="backdrop">
+    <!-- <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -615,6 +619,31 @@
           <button class="user-contacts-submit" type="submit">Send</button>
         </form>
       </div>
+    </div> -->
+    <!--/BACKDROP-->
+    <!--MOBILE-MENU-is-open-->
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn">
+          <svg class="mobile-menu-close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
+    <!--/MOBILE-MENU-->
   </body>
 </html>
