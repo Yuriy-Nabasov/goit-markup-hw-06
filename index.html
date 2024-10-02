@@ -319,18 +319,36 @@
         </div>
       </section>
       <!--section-3-scrolls-->
-      <!-- <section class="page-main-third section-paddings">
+      <section class="page-main-third section-paddings">
         <div class="container">
           <h2 class="page-main-second-title">Our Portfolio</h2>
           <ul class="page-main-third-list">
             <li class="page-main-third-list-item">
               <div class="wrap-portfolio-overlay">
-                <img
+                <picture>
+                  <source
+                  srcset="./images/portfolio/banking-app-desktop.jpg 1x,
+                  ./images/portfolio/banking-app-desktop@2x.jpg 2x "
+                  media="(min-width: 1158px)"
+                  />
+                  <source
+                  srcset="./images/portfolio/banking-app-tablet.jpg 1x,
+                  ./images/portfolio/banking-app-tablet@2x.jpg 2x "
+                  media="(min-width: 768px)"
+                  />
+                  <source
+                  srcset="./images/portfolio/banking-app-mobile.jpg 1x,
+                  ./images/portfolio/banking-app-mobile@2x.jpg 2x "
+                  media="(max-width: 767px)"
+                  />
+                  
+                  <img
                   class="page-main-second-list-img"
                   width="360"
-                  src="./images/portfolio/banking-app.jpg"
+                  src="./images/portfolio/banking-app-mobile.jpg"
                   alt="Photo banking-app"
-                />
+                  />
+                </picture>
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -459,7 +477,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!--footer-scrolls-->
     <!-- <footer class="page-footer">

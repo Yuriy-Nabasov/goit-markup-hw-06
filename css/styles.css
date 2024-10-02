@@ -687,6 +687,10 @@ img {
 /* =======/BENEFITS-STYLE-SETTINGS=======*/
 /* =======OUR-TEAM-STYLE-SETTINGS=======*/
 
+.section-paddings {
+  padding-bottom: 11px;
+}
+
 .page-main-second {
   background-color: #f4f4fd;
 }
@@ -787,6 +791,10 @@ img {
 /* --TABLET-- */
 
 @media screen and (min-width: 768px) {
+  .section-paddings {
+    padding-bottom: 96px;
+  }
+
   .page-main-second-list {
     display: flex;
     flex-wrap: wrap;
@@ -807,6 +815,10 @@ img {
 /* --DESKTOP-- */
 
 @media screen and (min-width: 1158px) {
+  .section-paddings {
+    padding-bottom: 120px;
+  }
+
   .page-main-second-list-item {
     width: calc((100% - 3 * 24px) / 4);
     /* width: 264px;
