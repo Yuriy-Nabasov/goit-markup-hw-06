@@ -286,75 +286,75 @@ p {
 }
 
 .social-list-icon {
-  fill: #2e2f42;
+  /* fill: #2e2f42; */
 }
 
 /* ==/section-1-scrolls--page-1-part-2== */
 /* =======section-2-scrolls======= */
 
 .page-main-second {
-  background-color: #f4f4fd;
+  /* background-color: #f4f4fd; */
 }
 
 .page-main-second-title {
-  font-weight: 700;
+  /* font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  margin-bottom: 72px; */
 }
 
 .page-main-second-list {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
 }
 
 .page-main-second-list-item {
-  background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
-  display: flex;
+  /* background-color: #ffffff; */
+  /* width: calc((100% - 3 * 24px) / 4); */
+  /* display: flex;
   flex-direction: column;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
 }
 
 .page-main-second-list-title {
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 8px; */
 }
 
 .page-main-second-list-text {
-  font-size: 16px;
+  /* font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: center; */
 }
 
 .our-team {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   column-gap: 24px;
 }
 
 .social-list {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   gap: 24px;
-  margin: 8px 16px 0;
+  margin: 8px 16px 0; */
 }
 
 .social-link {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
@@ -365,13 +365,13 @@ p {
 
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.social-link:hover,
+/* .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
-}
+} */
 
 /* =======/section-2-scrolls======= */
 /* =======section-3-scrolls======= */

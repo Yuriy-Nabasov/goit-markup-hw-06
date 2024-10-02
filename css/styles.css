@@ -687,15 +687,131 @@ img {
 /* =======/BENEFITS-STYLE-SETTINGS=======*/
 /* =======OUR-TEAM-STYLE-SETTINGS=======*/
 
+.page-main-second {
+  background-color: #f4f4fd;
+}
+
+.page-main-second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.page-main-second-list {
+  display: block;
+  row-gap: 72px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* gap: 24px; */
+}
+
+.page-main-second-list-item {
+  background-color: #ffffff;
+  width: calc((100% - 2 * 12px) / 1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-main-second-list-item:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.page-main-second-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.page-main-second-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.our-team {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* column-gap: 24px; */
+}
+
+.page-main-second-list-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 8px 16px 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+
 /* --TABLET-- */
 
 @media screen and (min-width: 768px) {
+  .page-main-second-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+  .page-main-second-list-item {
+    /* width: calc((100% - 1 * 24px) / 2); */
+    width: 264px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 /* --/TABLET-- */
 /* --DESKTOP-- */
 
 @media screen and (min-width: 1158px) {
+  .page-main-second-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+    /* width: 264px;
+    margin-bottom: 0; */
+  }
 }
 
 /* --/DESKTOP-- */
