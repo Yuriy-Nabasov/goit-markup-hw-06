@@ -378,29 +378,29 @@ p {
 
 .page-main-third .page-main-second-list-title,
 .page-main-third .page-main-second-list-text {
-  text-align: left;
+  /* text-align: left; */
 }
 
 .page-main-third-list {
-  column-gap: 24px;
+  /* column-gap: 24px;
   row-gap: 48px;
   flex-direction: row;
   background-color: #ffffff;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 
 .wrap-portfolio-overlay {
-  position: relative;
-  overflow: hidden;
+  /* position: relative;
+  overflow: hidden; */
 }
 
 .page-main-third-list-item:hover .portfolio-overlay-text {
-  transform: translateY(0%);
+  /* transform: translateY(0%); */
 }
 
 .portfolio-overlay-text {
-  line-height: 1.5;
+  /* line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   padding: 40px 32px;
@@ -418,33 +418,33 @@ p {
   transform: translateY(100%);
   transition-property: transform;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .page-main-third-list-item {
-  position: relative;
+  /* position: relative;
 
-  background-color: #ffffff;
-  width: calc((100% - 2 * 24px) / 3);
+  background-color: #ffffff; */
+  /* width: calc((100% - 2 * 24px) / 3);
   display: flex;
-  flex-direction: column;
-  flex-basis: 360px;
+  flex-direction: column; */
+  /* flex-basis: 360px; */
 
-  transition-property: box-shadow;
+  /* transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .page-main-third-list-item:hover,
 .page-main-third-list-item:focus {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
 }
 
 .third-list-item {
-  border: 1px solid #e7e9fc;
+  /* border: 1px solid #e7e9fc;
   border-top: none;
-  padding: 32px 16px;
+  padding: 32px 16px; */
 }
 
 /* =======/section-3-scrolls======= */
